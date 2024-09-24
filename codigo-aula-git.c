@@ -7,9 +7,9 @@ typedef struct {
 } ListaNomes;
 
 int main(int argc, char const *argv[]) {
-    ListaNomes variosNomes[10];
+    ListaNomes variosNomes[15];
     srand(time(NULL));
-    int i = rand() % 10; // Índice aleatório entre 0 e 9
+    int i = rand() % 15; // Índice aleatório entre 0 e 9
 
     FILE *nomes = fopen("nomes.txt", "r");
     if (nomes == NULL) {
