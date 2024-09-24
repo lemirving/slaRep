@@ -29,10 +29,10 @@ int main(int argc, char const *argv[]) {
         return 1;
     }
 
-    printf("Essa é a aula de git\n");
-    printf("Sortearemos um nome aleatorio: \n");
+    printf("AULA DE GIT\n");
+    printf("Um nome aleatorio sera gerado! \n");
 
-    printf("Nome: %s\n\n", variosNomes[i].nome);
+    printf("VENCEDOR DO SORTEIO: %s\n\n", variosNomes[i].nome);
 
     return 0;
 }
