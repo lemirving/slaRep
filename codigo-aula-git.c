@@ -2,9 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
+typedef struct{
+    char nome[20];
+}ListaNomes;
+
 int main(int argc, char const *argv[]){
     
-    char nome[20];
+    ListaNomes variosNomes[20];
 
     FILE *nomes = fopen("nomes.txt","r++");
     if(nomes == NULL)
@@ -16,7 +20,7 @@ int main(int argc, char const *argv[]){
     printf("Sortearemos um noem aleatorio: \n");
 
 
-    printf("Nome: %s",nome);
+    // printf("Nome: %s",nome);
 
     return 0;
 }
